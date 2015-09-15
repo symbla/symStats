@@ -1,0 +1,53 @@
+/*
+ *
+ *	KEYFRAME DEFINITIONS FOR ANIMATION
+ *
+ */
+
+/* ButtonHover */
+	@keyframes ButtonHover {
+		from {}
+		to {
+			box-shadow: 0 0 5px #AAA;
+			border: 1px solid #AAA;
+		}
+	}
+	@-webkit-keyframes ButtonHover {
+		from {}
+		to {
+			box-shadow: 0 0 5px #AAA;
+			border: 1px solid #AAA;
+		}
+	}
+	
+	
+/* TextFocus */
+	@keyframes TextFocus {
+		from {}
+		to {
+			border-color: #0088FF;
+		}
+	}
+	@-webkit-keyframes TextFocus {
+		from {}
+		to {
+			box-shadow: 0 0 5px #AAA;
+		}
+	}
+	
+	
+/* ListItemHover */
+	
+	@keyframes ListItemHover {
+		from {}
+		to {
+			background: #EEE;
+		}
+	}
+	
+	@-webkit-keyframes ListItemHover {
+		from {}
+		to {
+			background: #EEE;
+		}
+	}

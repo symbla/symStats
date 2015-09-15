@@ -1,0 +1,31 @@
+@import url(http://allfont.de/css/?fonts=arial-narrow);
+body { font-family: "Arial Narrow", sans-serif; letter-spacing: 1px; margin: 0; padding: 0; cursor: default; overflow: hidden; min-width: 682px; }
+
+/** GUI **/
+div#container { position: fixed; top: 0; bottom: 0; overflow-y: default; overflow-x: hidden; background: #FFF; }
+.cright { width: 650px; right: 0; z-index: 3; box-shadow: 0 0 2px #000; }
+.cleft { left: 0; min-width: 400px; right: 650px; z-index: 1; }
+.tr_header { background: #DDD; font-weight: bold; }
+.iconbar { text-align: right; }
+#calendar { display: none; }
+
+/** DATA TABLE **/
+.tr_data { background: #DDD; font-size: 10.5pt; padding-left: 10px; height: 50px; }
+.tr_data td { border: 1px solid #FFF: }
+
+/**
+.sh_list { z-index: 2; position: fixed; bottom: 35px; padding: 3px; background: #F7F7F7; box-shadow: 0 0 2px #000; cursor: pointer; }
+**/
+
+/** TBOX **/
+.tbox_header { font-size: 15pt; margin: 0 0 10px 0; border-bottom: 1px solid #EEE; font-weight: normal; text-align: left; }
+.tbox { width: auto; padding: 10px; margin: 0 20px 20px 20px; background: #FFF; text-align: center; border: 1px solid #DDD; }
+
+/** KALENDER **/
+.date { display: block; width: 100%; }
+.activedate { display: block; width: 100%; background: #CCC; }
+#ts_cal_td { vertical-align: center; }
+#ts_cal_td a { text-decoration: none; color: #000; }
+#ts_cal_td:hover { background: #EEE; }
+#leftcal { width: 24%; background: #EEE; float: left; text-align: center; padding: 10px 0px; overflow: hidden; }
+#rightcal { width: 74%; float: right; }

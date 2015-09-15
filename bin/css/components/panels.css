@@ -1,0 +1,35 @@
+/**
+*
+*	PANEL DEFINITION
+*
+**/
+
+.panel {
+	width: 100%;
+	background: #FFF;
+	border: 1px solid #E5E5E5;
+	box-shadow: 0 0 4px #EEE;
+	margin-bottom: 15px;
+}
+.panel:last-of-type { margin-bottom: 0; }
+@media all and (max-width: 750px) {
+	.panel:last-of-type { margin-bottom: 15px; }
+}
+
+.panel-head {
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	padding: 3px 5px;
+}
+
+.panel-body {
+	display: block;
+	width: auto;
+	padding: 5px;
+}
+
+/* TEXT PROPERTIES */
+	.text-center { text-align: center; } 		/* TEXT CENTER 	*/
+	.text-right { text-align: right; }			/* TEXT RIGHT 		*/
+	.text-justify { text-align: justify; } 		/* TEXT JUSTIFY 	*/

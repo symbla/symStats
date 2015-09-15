@@ -1,0 +1,30 @@
+/**
+*
+* TABELLEN
+*
+**/
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+
+table thead {
+	font-weight: bold;
+	padding: 5px 3px;
+}
+
+	/* DATENTABELLE */
+
+	.data-table { border: 1px solid #CCC; }
+	
+	.data-table thead, .data-table tr, .data-table td {
+		padding: 0 3px !important;
+	}
+
+	.data-table thead { border-bottom: 1px solid #CCC; }
+	.data-table tr { border-bottom: 1px solid #CCC; }
+	.data-table td { border-right: 1px solid #CCC; }
+	.data-table tr:last-of-type { border-bottom: none; }
+	.data-table td:last-of-type { border-right: none; }

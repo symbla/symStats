@@ -1,0 +1,35 @@
+/**
+*
+* LIST DEFINITION
+*
+**/
+
+.list {
+	width: 100%;
+	padding: 0;
+	border: 1px solid #E5E5E5;
+}
+
+a.list-item {
+	width: 100%;
+	display: block;
+	background: #FFF;
+	color: #333;
+	padding: 5px;
+	border-bottom: 1px solid #E5E5E5;
+	text-decoration: none;
+}
+a.list-item:last-of-type {
+	border-bottom: none;
+}
+
+a.list-item:hover {
+	animation: ListItemHover 500ms;
+	animation-fill-mode: forwards;
+}
+	
+	p.list-item-header {
+		font-size: 15px !important;
+		font-weight: bold;
+		display: block;
+	}

@@ -1,0 +1,46 @@
+/**
+*
+*	COLOR OPTIONS 
+*
+**/
+
+
+/* BACKGROUND COLOR OPTIONS */
+	/* SYMBOLIC COLOR */		.bg-symblue { background: rgb(0,136,255); }
+	/* BLACK 			*/		.bg-black { background: rgb(0,0,0); }
+	/* WHITE 			*/		.bg-white { background: rgb(255,255,255); }				
+	/* BLUE 				*/		.bg-blue { background: rgb(0,0,255); }						
+	/* BROWN 			*/		.bg-brown { background: rgb(165,42,42); }					
+	/* CYAN 				*/		.bg-cyan { background: rgb(0,255,255); }					
+	/* GOLD				*/		.bg-gold { background: rgb(255,215,0); }					
+	/* GREY				*/		.bg-grey { background: rgb(190,190,190); }				
+	/* GREEN				*/		.bg-green { background: rgb(0,128,0); }					
+	/* NAVYBLUE 		*/		.bg-navy { background: rgb(0,0,128) }						
+	/* ORANGE			*/		.bg-orange { background: rgb(255,165,0) }					
+	/* PINK				*/		.bg-pink { background: rgb(255,192,203); }				
+	/* PURPLE			*/		.bg-purple { background: rgb(160,32,240); }				
+	/* RED				*/		.bg-red { background: rgb(255,0,0); }						
+	/* SILVER			*/		.bg-silver { background: rgb(230,232,250); }				
+	/* VIOLET			*/		.bg-violet { background: rgb(238,130,238); }				
+	/* YELLOW 			*/		.bg-yellow { background: rgb(255,255,0); }				
+/* END OF BACKGROUND COLORS */
+
+/* TEXT COLOR OPTIONS (SAME AS BACKGROUND) */
+	.txt-symblue { color: rgb(0,136,255); }
+	.txt-black { color: rgb(0,0,0); }
+	.txt-white { color: rgb(255,255,255); }
+	.txt-blue { color: rgb(0,0,255); }
+	.txt-brown { color: rgb(165,42,42); }
+	.txt-cyan { color: rgb(0,255,255); }
+	.txt-gold { color: rgb(255,215,0); }
+	.txt-grey { color: rgb(190,190,190); }
+	.txt-green { color: rgb(0,128,0); }
+	.txt-navy { color: rgb(0,0,128) }
+	.txt-orange { color: rgb(255,165,0) }
+	.txt-pink { color: rgb(255,192,203); }
+	.txt-purple { color: rgb(160,32,240); }
+	.txt-red { color: rgb(255,0,0); }
+	.txt-silver { color: rgb(230,232,250); }
+	.txt-violet { color: rgb(238,130,238); }
+	.txt-yellow { color: rgb(255,255,0); }
+/* END OF TEXT COLORS */

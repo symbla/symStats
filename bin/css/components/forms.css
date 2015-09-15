@@ -1,0 +1,48 @@
+/*
+ *
+ *	FORM STYLE
+ *		- BUTTONS
+ *		- TEXT FIELDS
+ *		- TEXT AREAS
+ *
+ */
+ 
+/* CLASSES FOR BUTTONS */
+	[class*='btn-'] {
+		border: 1px solid #CCC;
+		padding: 7px 10px;
+		text-align: center;
+		text-transform: uppercase;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		box-shadow: 0 0 5px #CCC;
+	}
+	[class*='btn-']:hover {
+		animation: ButtonHover 1s;
+		animation-fill-mode: forwards;
+	}
+	
+	/* BUTTON TYPES */
+		.btn-ok { background: #0088FF; }
+		.btn-default { background: #FFF; }
+		.btn-success { background: #CCFF99; }
+		.btn-cancel { background: #FF9966; }
+		
+		
+/* CLASSES FOR TEXT FIELDS */
+	[class*='txt-'] {
+		content: "Textfeld";
+		border: none;
+		border-bottom: 1px solid #CCC;
+		padding: 4px 10px;
+		width: 200px;
+	} 
+	[class*='txt-']:focus {
+		content: "";
+		animation: TextFocus 1s;
+		animation-fill-mode: forwards;
+	}
+	
+	/* TEXT TYPES */
+		.txt-default { background: #FFF; }
